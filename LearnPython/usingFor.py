@@ -1,5 +1,7 @@
+import python_test
 
-last = range(2000)
+
+last = range(1)
 start = 1
 for start in last:
     x = start
@@ -11,3 +13,7 @@ for start in last:
 x = 2222
 y = 2222
 print(id(x) == id(y))
+
+a = python_test.CustomClass(10)
+print(type(a))
+
